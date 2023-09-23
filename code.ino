@@ -2,7 +2,7 @@
 
 const char* ssid = "Tu_SSID";
 const char* password = "Tu_Contraseña";
-const char* serverAddress = "192.168.1.2"; // Cambia esto por la dirección IP de tu servidor Node.js
+const char* serverAddress = "127.0.0.1"; // Cambia esto por la dirección IP de tu servidor Node.js
 
 void setup() {
   Serial.begin(115200);
